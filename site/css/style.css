@@ -1,0 +1,96 @@
+/* Самые простые настройки, чтобы выглядело по-домашнему */
+body {
+    font-family: Arial, sans-serif; /* Обычный стандартный шрифт */
+    background-color: #fcfaf2;     /* Фон оставим приятный, под бумагу */
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+    text-align: center;            /* Всё тупо по центру */
+}
+
+/* Обычные заголовки */
+h1 {
+    color: #8b0000;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a5d4e;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Текст */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+/* Ссылки вверху */
+nav a {
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Обычное подчеркивание при наведении, как на старых сайтах */
+}
+
+/* Карточки на главной — теперь они идут просто друг за другом вниз */
+.culture-card {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 30px auto;        /* Выравнивание по центру экрана */
+    padding: 15px;
+    border: 1px solid #ccc;   /* Самая обычная серая рамка, чтоб не сливалось */
+}
+
+/* При наведении на карточку ВООБЩЕ ничего не дергается и не меняется */
+.culture-card:hover {
+    background-color: #ffffff; 
+}
+
+.culture-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Картинки на главной */
+.culture-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Большая картинка внутри статей */
+.main-article-img {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Текст статьи */
+.article-text {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left; /* Текст статьи ровный по левому краю */
+}
+
+.article-text p {
+    margin-bottom: 15px;
+}
+
+/* Кнопка Назад */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8b0000;
+}
