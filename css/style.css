@@ -1,14 +1,14 @@
-/* Самые простые настройки, чтобы выглядело по-домашнему */
+
 body {
-    font-family: Arial, sans-serif; /* Обычный стандартный шрифт */
-    background-color: #fcfaf2;     /* Фон оставим приятный, под бумагу */
+    font-family: Arial, sans-serif; 
+    background-color: #fcfaf2;     
     color: #2c2c2c;
     margin: 0;
     padding: 20px;
-    text-align: center;            /* Всё тупо по центру */
+    text-align: center;          
 }
 
-/* Обычные заголовки */
+
 h1 {
     color: #8b0000;
     font-size: 2rem;
@@ -21,7 +21,7 @@ h2 {
     margin: 10px 0;
 }
 
-/* Текст */
+
 p {
     font-size: 1rem;
     line-height: 1.5;
@@ -32,7 +32,7 @@ p {
     margin: 0 auto 20px auto;
 }
 
-/* Ссылки вверху */
+
 nav a {
     color: #8b0000;
     text-decoration: none;
@@ -40,57 +40,81 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; /* Обычное подчеркивание при наведении, как на старых сайтах */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Карточки на главной — теперь они идут просто друг за другом вниз */
-.culture-card {
-    background-color: #ffffff;
-    width: 400px;
-    margin: 30px auto;        /* Выравнивание по центру экрана */
-    padding: 15px;
-    border: 1px solid #ccc;   /* Самая обычная серая рамка, чтоб не сливалось */
+h1 {
+    color: darkred;
+    font-size: 24px;
 }
 
-/* При наведении на карточку ВООБЩЕ ничего не дергается и не меняется */
-.culture-card:hover {
-    background-color: #ffffff; 
+h2 {
+    color: darkgreen;
+    font-size: 20px;
 }
 
-.culture-card a {
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+nav a {
+    color: darkred;
     text-decoration: none;
-    color: inherit;
 }
 
-/* Картинки на главной */
-.culture-card img {
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.card {
+    background: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.card img {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    height: 200px;
 }
 
-/* Большая картинка внутри статей */
-.main-article-img {
-    width: 500px;
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+/* картинка в статье */
+.article-img {
+    width: 450px;
     height: auto;
-    margin: 20px auto;
-    display: block;
+    margin: 15px auto;
 }
 
-/* Текст статьи */
-.article-text {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: left; /* Текст статьи ровный по левому краю */
+
+.article {
+    width: 550px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.article-text p {
-    margin-bottom: 15px;
+.article p {
+    margin-bottom: 10px;
 }
 
-/* Кнопка Назад */
+
 .back-link {
     display: inline-block;
-    margin-top: 20px;
-    color: #8b0000;
+    margin-top: 15px;
+    color: darkred;
 }
